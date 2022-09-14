@@ -3,6 +3,9 @@
 #David's code
 # # Objectives Week 4
 # 
+name = input("what is your name?")
+print(name)
+
 # 1. Understand lists in python programming, 
 # 2. list functions, 
 # 3. tuples, 
