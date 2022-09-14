@@ -137,7 +137,7 @@ print(len(newList))
 
 
 #.remove(), .append(), sort(), .len() are list functions
-elements = ["water " + int(five)  + "air " + "earth " + "sixtynine "]
+elements = ["water " + "five"  + "air " + "earth " + "sixtynine "]
 print(elements)
 
 # In[3]:
@@ -167,8 +167,16 @@ print(multiDimen[0][0])
 # # List functions
 
 # In[ ]:
-
-
+avengers = ["hawkeye", "hulk" , "iron man" , "black panther" , "captAmer"]
+guardiansOfGalaxy = ["Drax", "rocket racoon", "Groot", "starlord", "Gamora"]
+#join the lists in a new list
+#add two more chararacters into the new list
+#reverse the list
+newList = avengers + guardiansOfGalaxy
+newList.append("wolverine")
+newList.append("spiderman")
+newList.reverse()
+print(newList)
 
 
 
